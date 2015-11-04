@@ -3,9 +3,6 @@ import auth
 
 class Database_Tools:
 	def __init__(self):
-		pass
-
-	def __init__(self):
 		print auth.mongo_uri
 		client = pymongo.MongoClient(auth.mongo_uri)
 		db = client['gallium-stats']

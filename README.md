@@ -1,17 +1,4 @@
 GalliumStats
 ======
 
-
-Setup VirtualEnv
-
-```
-virtualenv galliumstatsenv
-```
-
-```
-source myprojectenv/bin/activate
-```
-
-```
-pip install uwsgi flask
-```
+Serve up user install statistics, [as detailed here](https://github.com/GalliumOS/galliumos-distro/issues/42).

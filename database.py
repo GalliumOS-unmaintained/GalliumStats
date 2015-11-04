@@ -2,9 +2,6 @@ import pymongo
 
 class Database_Tools:
 	def __init__(self):
-		pass
-
-	def __init__(self):
 		client = pymongo.MongoClient('mongodb://<username>:<password>@ds049854.mongolab.com:49854/gallium-stats')
 		db = client['gallium-stats']
 		self.col_stats = db.stats
